@@ -5,7 +5,7 @@ const app = express();
 const port = 9001;
 
 app.get('/', async (req, res) => {
-    res.send({ msg: 'default okay' });
+    res.send({ msg: 'Okay' });
 });
 app.get('/status', async (req, res) => {
     // connect to MongoDB database
